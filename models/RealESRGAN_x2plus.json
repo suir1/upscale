@@ -6,6 +6,7 @@
 	"config": {
 		"inputName": "input",
 		"outputName": "output",
-		"blockSize": 256
+		"blockSize": 256,
+		"tileOverlap": 20
 	}
 }
