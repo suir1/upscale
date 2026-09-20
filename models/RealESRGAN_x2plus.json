@@ -7,6 +7,7 @@
 		"inputName": "input",
 		"outputName": "output",
 		"blockSize": 256,
-		"tileOverlap": 20
+		"tileOverlap": 20,
+		"preserveGrayscale": true
 	}
 }
