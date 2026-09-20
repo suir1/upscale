@@ -1,6 +1,7 @@
 # MangaJaNai model notice
 
 - Original model: `2x_MangaJaNai_2048p_V1_ESRGAN_95k.pth`
+- Creator: [the-database](https://github.com/the-database)
 - Source: https://github.com/the-database/MangaJaNai
 - Release: https://github.com/the-database/MangaJaNai/releases/tag/1.0.0
 - License: [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)
