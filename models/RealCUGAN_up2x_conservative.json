@@ -1,0 +1,14 @@
+{
+	"name": "Real-CUGAN (2x, conservative)",
+	"info": "Anime-oriented 2x upscaling with conservative texture restoration.",
+	"tags": ["2x", "anime", "conservative"],
+	"type": "multiarray",
+	"miniOS": 16,
+	"config": {
+		"inputName": "input",
+		"outputName": "output",
+		"blockSize": 256,
+		"tileOverlap": 20,
+		"preserveGrayscale": true
+	}
+}

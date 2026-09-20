@@ -29,3 +29,20 @@ Model files can be found [here](https://github.com/xinntao/Real-ESRGAN/blob/mast
 pip install spandrel
 python spandrel_convert.py path/to/model.pth
 ```
+
+## Real-CUGAN (local experiment)
+
+The experimental converter expects the upstream `upcunet_v3.py` source and a
+Real-CUGAN 2x checkpoint. It emits a fixed 256x256-input Core ML package for
+local testing in Aidoku:
+
+```sh
+python realcugan_convert.py \
+  /path/to/up2x-latest-conservative.pth \
+  --source-file /path/to/Real-CUGAN/upcunet_v3.py \
+  --output RealCUGAN_up2x_conservative.mlpackage
+```
+
+The source and weights come from the upstream Real-CUGAN project. This branch
+is for local evaluation only; verify model-weight redistribution terms before
+publishing the generated package.
