@@ -30,6 +30,9 @@ pip install spandrel
 python spandrel_convert.py path/to/model.pth
 ```
 
+The converter also supports ESRGAN models that use pixel unshuffle, including
+MangaJaNai, when the fixed 256x256 input is divisible by the shuffle factor.
+
 ## Real-CUGAN (local experiment)
 
 The experimental converter expects the upstream `upcunet_v3.py` source and a
