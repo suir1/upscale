@@ -3,6 +3,7 @@
 	"tags": ["2x"],
 	"type": "multiarray",
 	"miniOS": 16,
+	"version": 2,
 	"config": {
 		"inputName": "input",
 		"outputName": "output",
